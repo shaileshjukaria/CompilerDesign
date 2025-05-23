@@ -1,46 +1,46 @@
-# Compii Playground
+# 🛠️ MyCompiler – A Simple Compiler Project in Python
 
-A modern web-based playground for writing and running Compii code in real-time. The playground features a clean, responsive interface with syntax highlighting and real-time code execution.
+This project is a simple compiler built using Python and PLY (Python Lex-Yacc). It performs lexical analysis (tokenization), syntax analysis (parsing), and basic error handling for a simple custom language.
 
-## Features
+> 🚀 Originally based on an open-source template, customized and maintained by **YOUR NAME**.
 
-- Real-time code execution
-- Dark/Light theme support
-- Responsive design
-- Syntax highlighting
-- Tab support in editor
-- Persistent theme preference
+---
 
-## Setup
+## 📦 Features
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd compii-playground
-```
+- Lexical Analysis (Token Generation)
+- Syntax Parsing (Using CFG)
+- Error Detection
+- Modular Code Structure
 
-2. Install dependencies:
-```bash
-npm install
-```
+---
 
-3. Start the development server:
-```bash
-npm start
-```
+## 📁 Project Structure
 
-4. Open your browser and navigate to `http://localhost:5000`
+```plaintext
+├── lexer.py        # Contains lexical rules using PLY (Lex)
+├── parser.py       # Contains parsing rules using PLY (Yacc)
+├── main.py         # Entry point to run the compiler
+├── input.txt       # Source code file to be compiled
+├── README.md       # Project documentation
 
-## Development
 
-The project consists of:
-- Frontend: HTML/CSS/JavaScript
-- Backend: Node.js server (running on port 5000)
+🚀 How to Run the Project
+✅ Prerequisites
+Python 3.x installed
 
-## Contributing
+ply library
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+🔧 Install Dependencies
+Open terminal (or Git Bash) and run:
+pip install ply
 
-## License
+▶️ Run the Compiler
+Make sure your source code is written inside input.txt.
+Then, run the compiler using:
+python main.py
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+🧑‍💻 Author
+This version is customized and maintained by:
+Shailesh Jukaria
