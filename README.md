@@ -25,6 +25,7 @@ This project is a simple compiler built using Python and PLY (Python Lex-Yacc). 
 ├── README.md       # Project documentation
 
 
+```
 🚀 How to Run the Project
 ✅ Prerequisites
 Python 3.x installed
@@ -33,14 +34,26 @@ ply library
 
 🔧 Install Dependencies
 Open terminal (or Git Bash) and run:
+```plaintext
 pip install ply
-
+```
 ▶️ Run the Compiler
 Make sure your source code is written inside input.txt.
 Then, run the compiler using:
+```plaintext
 python main.py
-
+```
+The program will:
+Read the code from input.txt
+Tokenize and parse it
+Print the result and any syntax/lexical errors in the terminal.
 
 🧑‍💻 Author
 This version is customized and maintained by:
-Shailesh Jukaria
+
+SHAILESH JUKARIA
+github.com/shaileshjukaria
+
+
+
+
