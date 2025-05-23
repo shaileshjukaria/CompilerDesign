@@ -2,7 +2,7 @@
 
 This project is a simple compiler built using Python and PLY (Python Lex-Yacc). It performs lexical analysis (tokenization), syntax analysis (parsing), and basic error handling for a simple custom language.
 
-> 🚀 Originally based on an open-source template, customized and maintained by **YOUR NAME**.
+> 🚀 Originally based on an open-source template, customized and maintained by **SHAILESH JUKARIA**.
 
 ---
 
