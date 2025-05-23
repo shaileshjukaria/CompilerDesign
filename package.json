@@ -1,0 +1,13 @@
+{
+  "name": "compii-playground",
+  "version": "1.0.0",
+  "description": "Compii code playground",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+} 
