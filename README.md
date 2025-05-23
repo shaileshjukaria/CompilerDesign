@@ -52,7 +52,7 @@ Print the result and any syntax/lexical errors in the terminal.
 This version is customized and maintained by:
 
 SHAILESH JUKARIA
-github.com/shaileshjukaria
+[github.com/shaileshjukaria](https://github.com/shaileshjukaria)
 
 
 
