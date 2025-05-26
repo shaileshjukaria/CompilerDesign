@@ -35,7 +35,7 @@ ply library
 🔧 Install Dependencies
 Open terminal (or Git Bash) and run:
 ```plaintext
-pip install ply
+pip install ply shailesh
 ```
 ▶️ Run the Compiler
 Make sure your source code is written inside input.txt.
