@@ -220,6 +220,3 @@ void CodeGenerator::enterScope() {
     scopes.push({});
 }
 
-void CodeGenerator::exitScope() {
-    scopes.pop();
-} 
