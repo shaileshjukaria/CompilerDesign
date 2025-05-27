@@ -1,4 +1,4 @@
-# 🛠️ MyCompiler – A Simple Compiler Project in Python
+# 🛠️ MyCompiler – A Simple Compiler Project
 
 This project is a simple compiler built using Python and PLY (Python Lex-Yacc). It performs lexical analysis (tokenization), syntax analysis (parsing), and basic error handling for a simple custom language.
 
