@@ -1,59 +1,57 @@
-# 🛠️ MyCompiler – A Simple Compiler Project
+# Compiler Design Project
 
-This project is a simple compiler built using Python and PLY (Python Lex-Yacc). It performs lexical analysis (tokenization), syntax analysis (parsing), and basic error handling for a simple custom language.
-
-> 🚀 Originally based on an open-source template, customized and maintained by **SHAILESH JUKARIA**.
+A simple compiler built using Lex and Yacc that demonstrates key phases of a compiler pipeline, including lexical analysis, parsing, syntax tree generation, and intermediate code output. This project was developed as part of a university Compiler Design course.
 
 ---
 
-## 📦 Features
+## 🚀 Features
 
-- Lexical Analysis (Token Generation)
-- Syntax Parsing (Using CFG)
-- Error Detection
-- Modular Code Structure
+- Lexical Analysis using **Lex/Flex**
+- Syntax Parsing using **Yacc/Bison**
+- Grammar for a custom programming language (or subset of C)
+- Generation of a **Parse Tree** and **Intermediate Representation**
+- Error detection and reporting
+- Simple command-line interface for input/output
 
 ---
 
-## 📁 Project Structure
+## 🧱 Compiler Architecture
 
-```plaintext
-├── lexer.py        # Contains lexical rules using PLY (Lex)
-├── parser.py       # Contains parsing rules using PLY (Yacc)
-├── main.py         # Entry point to run the compiler
-├── input.txt       # Source code file to be compiled
-├── README.md       # Project documentation
+1. **Lexical Analyzer (`lex.l`)**
+   - Tokenizes the source code into identifiers, literals, operators, and keywords.
 
+2. **Syntax Analyzer (`parser.y`)**
+   - Parses the stream of tokens to check for syntactic correctness.
+   - Implements grammar rules and generates parse trees.
 
-```
-🚀 How to Run the Project
-✅ Prerequisites
-Python 3.x installed
+3. **Semantic Analysis (basic)**
+   - Type checking and symbol validation (optional in basic versions).
 
-ply library
+4. **Intermediate Code Generation**
+   - Outputs intermediate code (e.g., 3-address code).
 
-🔧 Install Dependencies
-Open terminal (or Git Bash) and run:
-```plaintext
-pip install ply 
-```
-▶️ Run the Compiler
-Make sure your source code is written inside input.txt.
-Then, run the compiler using:
-```plaintext
-python main.py
-```
-The program will:
-Read the code from input.txt
-Tokenize and parse it
-Print the result and any syntax/lexical errors in the terminal.
+5. **(Optional) Code Optimization and Final Code Generation**
 
-🧑‍💻 Author
-This version is customized and maintained by:
+---
 
-SHAILESH JUKARIA
-[github.com/shaileshjukaria](https://github.com/shaileshjukaria)
+## 🛠️ Getting Started
 
+### Prerequisites
+- `flex`
+- `bison` or `yacc`
+- `gcc`
 
+### Build & Run
 
+```bash
+# Clone the repository
+git clone https://github.com/KanyalMohit/Compiler.git
+cd Compiler
 
+# Compile using Flex and Bison
+flex lex.l
+bison -d parser.y
+gcc lex.yy.c parser.tab.c -o compiler
+
+# Run the compiler with input file
+./compiler < input.txt
