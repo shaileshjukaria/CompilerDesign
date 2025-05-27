@@ -45,7 +45,7 @@ A simple compiler built using Lex and Yacc that demonstrates key phases of a com
 
 ```bash
 # Clone the repository
-git clone https://github.com/KanyalMohit/Compiler.git
+git clone https://github.com/shaileshjukaria/CompilerDesign.git
 cd Compiler
 
 # Compile using Flex and Bison
