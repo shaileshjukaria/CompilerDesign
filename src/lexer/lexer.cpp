@@ -291,3 +291,64 @@ std::vector<Token> Lexer::tokenize()
     tokens.push_back({TokenType::EOF_TYPE, ""});
     return tokens;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//exical tokenization is conversion of a text into (semantically or syntactically) meaningful lexical tokens belonging to categories defined by a "lexer" program. In case of a natural language, those categories include nouns, verbs, adjectives, punctuations etc. In case of a programming language, the categories include identifiers, operators, grouping symbols, data types and language keywords. Lexical tokenization is related to the type of tokenization used in large language models (LLMs) but with two differences. First, lexical tokenization is usually based on a lexical grammar, whereas LLM tokenizers are usually probability-based. Second, LLM tokenizers perform a second step that converts the tokens into numerical values.
+
+//Rule-based programs
+//Lexical tokenization is conversion of a text into (semantically or syntactically) meaningful lexical tokens belonging to categories defined by a "lexer" program. In case of a natural language, those categories include nouns, verbs, adjectives, punctuations etc. In case of a programming language, the categories include identifiers, operators, grouping symbols, data types and language keywords. Lexical tokenization is related to the type of tokenization used in large language models (LLMs) but with two differences. First, lexical tokenization is usually based on a lexical grammar, whereas LLM tokenizers are usually probability-based. Second, LLM tokenizers perform a second step that converts the tokens into numerical values.
+
+/*Rule-based programs
+Disambiguation of "lexeme"
+Lexical token and lexical tokenization
+Lexical grammar
+Details
+Obstacles
+Lexer generator
+Phrase structure
+Context-sensitive lexing
+See also
+References
+External links
+Last edited 2 days ago by OAbot
+Related articles
+Lex (software)
+Lexical analyzer generator
+Syntax (programming languages)
+Set of rules defining correctly structured programs
+Integer literal
+Wikipedia
+Wikimedia Foundation
+Powered by MediaWiki
+Content is available under CC BY-SA 4.0 unless otherwise noted.
+Privacy policy Contact Wikipedia*/
